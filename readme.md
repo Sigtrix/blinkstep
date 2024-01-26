@@ -25,7 +25,7 @@ with the BOOTSEL button pressed.
 
 # Usage
 ## Obtaining the Device's IP Address
-When the embedded system successfully connects to the Wi-Fi network and obtains an IP
+When the program successfully connects to the Wi-Fi network and obtains an IP
 address dynamically using DHCP, it will output the obtained IP address to the serial console.
 You can monitor this output using a serial communication tool such as screen or minicom.
 Assuming you are using a USB-to-serial adapter and the device appears as
@@ -46,5 +46,5 @@ Replace <device_ip_address> with the actual IP address obtained by the device.
 This will establish a TCP connection to the device on port 1234.
 After establishing a connection, you can send step count data to the device. 
 The format should be a string representation of the step count, terminated with
-a newline character (\n).
+a newline character `\n`.
 
