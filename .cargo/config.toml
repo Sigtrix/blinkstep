@@ -6,5 +6,5 @@ target = "thumbv6m-none-eabi"        # Cortex-M0 and Cortex-M0+
 
 [env]
 DEFMT_LOG = "debug"
-WIFI_NETWORK = "WIFI_SSID"
-WIFI_PASSWORD = "WIFI_PASSWORD"
+WIFI_NETWORK = "YOUR_SSID"
+WIFI_PASSWORD = "YOUR_WIFI_PASSWORD"
